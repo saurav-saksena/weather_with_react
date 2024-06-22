@@ -1,0 +1,123 @@
+.weather--dashboard {
+  height: 100vh;
+  margin-top: 20px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.submit--btn {
+  width: 40px;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  border: 2px solid rgb(9, 58, 235);
+  
+}
+.search--img--button {
+  width: 20px;
+  height: 20px;
+}
+.search--box {
+  padding: 6px;
+  width: 300px;
+
+  outline: none;
+  border: 2px solid rgb(9, 58, 235);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dashboard--inner {
+  width: 60%;
+  min-height: 100px;
+  border: 2px solid rgb(76, 76, 224);
+  border-radius: 10px;
+  margin: auto;
+}
+.current--time {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.current--time p {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.weather--container {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.weather--details--left {
+  padding-left: 10px;
+  flex: 6;
+}
+.city--name,
+.temp,
+.feels--like {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(54, 167, 243);
+}
+.weather--details--right {
+  flex: 6;
+}
+.weather--img--container {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.weather--img {
+  width: 80px;
+  height: 80px;
+}
+.temp {
+  margin-left: 30px;
+}
+.humadity {
+  display: flex;
+  /* margin-top: 6px; */
+  /* align-items: center; */
+}
+.span--details {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(54, 167, 243);
+}
+.humadity--img {
+  height: 30px;
+  width: 30px;
+  margin-right: 25px;
+  padding: 10px;
+}
+
+.seven--day--container{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+   width: 200px;
+   border: 2px solid rgb(77, 77, 176);
+   margin-left: 3px;
+
+   
+}
+.seven--day{
+    display: flex;
+    width: 95%;
+    margin: 0px auto;
+}
+.seven--day--text{
+    margin-top:5px;
+    font-weight: bold;
+    font-size: 22px;
+    color:rgb(8, 104, 206);
+    margin-left: 16px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
